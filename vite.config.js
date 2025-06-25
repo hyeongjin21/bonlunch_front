@@ -11,7 +11,7 @@ export default defineConfig({
   // Cross-origin으로 간주하고 이를 차단 : CORS 오류
   server : {
     proxy:{
-      '/api' : 'http://localhost:8088'
+      '/api' : 'http://3.39.252.90:8088'
     }
   }
 })
